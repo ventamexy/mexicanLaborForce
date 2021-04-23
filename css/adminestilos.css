@@ -1,0 +1,31 @@
+/*INDEX ADMIN*/
+.contenido {
+    font-size: 13px;
+}
+
+/*SHOW ADMIN*/
+span {
+    color: black;
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+.datos {
+    color: black;
+    font-size: 15px;
+}
+
+#headershow{
+    background: rgb(20, 135, 202);
+}
+
+.iconedit{
+    color: white;
+}
+.mensajebienvenidapanel{
+    color: black;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}

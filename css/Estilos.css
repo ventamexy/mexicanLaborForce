@@ -1,0 +1,82 @@
+section {
+    text-align: justify;
+}
+
+/*ABOUT US*/
+  .bannerabout {
+      font-size: 70px;
+      color: white;
+      padding-top: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      -moz-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      background-image: url("/img/about.jpg");
+      background-size: cover;/*imagen al 100% del ancho*/
+      background-repeat: no-repeat;/*no se repite la imagen*/
+      background-position-y: -100px;
+  }
+    /*Ajustes para tamños moviles*/
+    @media only screen and (max-width: 600px) {
+        .bannerabout,
+        .bannercontact,
+        .banneraboutus,
+        .bannerservices {
+            display: none;
+        }
+    }
+  .banneraboutus {
+      text-shadow: 5px 5px 5px rgb(70, 70, 70);
+      font-family: 'Maven Pro', sans-serif;
+  }
+
+  /*CONTACT*/
+  .bannercontact {
+      font-size: 70px;
+      color: white;
+      padding-top: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      -moz-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      background-image: url("/img/contact.jpg");
+      background-size: cover;/*imagen al 100% del ancho*/
+      background-repeat: no-repeat;
+      /*no se repite la imagen*/
+      background-position-y: -85px;
+  }
+
+  .banneraboutus {
+      text-shadow: 5px 5px 5px rgb(70, 70, 70);
+      font-family: 'Maven Pro', sans-serif;
+  }
+
+  /*SERVICES*/
+  .bannerservices {
+      font-size: 70px;
+      color: white;
+      padding-top: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      -moz-box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      box-shadow: 10px 10px 22px -2px rgba(41, 41, 41, 1);
+      background-image: url("/img/service.jpg");
+      background-repeat: no-repeat;
+      /*no se repite la imagen*/
+      background-size: cover;
+      /*imagen al 100% del ancho*/
+            background-position-y: -50px;
+  }
+
+  .banneraboutus {
+      text-shadow: 5px 5px 5px rgb(70, 70, 70);
+      font-family: 'Maven Pro', sans-serif;
+  }
+
+/*REGISTRY*/
+
+
+/*PANEL PRINCIPAL INDEX*/
+.listadeempleados{
+    padding-top: 10px;
+}
